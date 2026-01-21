@@ -13,3 +13,5 @@ PalPtr_WaterKnuckles:			palptr Pal_WaterKnuckles, 0			; 3 - Water Knuckles
 ; Levels
 PalPtr_DEZ:				palptr Pal_DEZ, 1				; 4 - DEZ
 PalPtr_WaterDEZ:			palptr Pal_WaterDEZ, 1				; 5 - Water DEZ
+PalPtr_AIZ:				palptr Pal_AIZ, 1				; 4 - AIZ
+PalPtr_WaterAIZ:			palptr Pal_WaterAIZ, 1				; 5 - Water AIZ

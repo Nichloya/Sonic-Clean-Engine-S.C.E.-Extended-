@@ -9,6 +9,7 @@ LevelSelect_VRAM:			= 0
 ; Variables
 LevelSelect_ZoneCount:			= ZoneCount
 LevelSelect_ActDEZCount:		= 4						; DEZ
+LevelSelect_ActAIZCount:		= 4						; AIZ
 
 LevelSelect_CharacterCount:		= 7
 LevelSelect_MusicTestCount:		= LevelSelect_CharacterCount+1
@@ -226,6 +227,7 @@ LevelSelect_Controls:
 
 .maxacts
 		dc.w LevelSelect_ActDEZCount-1	; DEZ
+		dc.w LevelSelect_ActAIZCount-1	; AIZ
 
 		zonewarning .maxacts,(2*1)
 
@@ -641,6 +643,11 @@ LevelSelect_ActTextIndex: offsetTable
 		offsetTableEntry.w LevelSelect_LoadAct3		; DEZ3
 		offsetTableEntry.w LevelSelect_LoadAct4		; DEZ4
 
+		offsetTableEntry.w LevelSelect_LoadAct1		; AIZ1
+		offsetTableEntry.w LevelSelect_LoadAct2		; AIZ2
+		offsetTableEntry.w LevelSelect_LoadAct3		; AIZ3
+		offsetTableEntry.w LevelSelect_LoadAct4		; AIZ4
+
 		zonewarning LevelSelect_ActTextIndex,(2*4)
 ; --------------------------------------------------------------------------
 
@@ -664,7 +671,7 @@ LevelSelect_HeaderText:		levselstr "SONIC TEST GAME - *** DEBUG MODE ***        
 ; main text
 LevelSelect_MainText:
 		levselstr "   DEATH EGG          - ACT 1"
-		levselstr "   UNKNOWN LEVEL      - UNKNOWN"
+		levselstr "   ANGEL ISLAND       - ACT 1"
 		levselstr "   UNKNOWN LEVEL      - UNKNOWN"
 		levselstr "   UNKNOWN LEVEL      - UNKNOWN"
 		levselstr "   UNKNOWN LEVEL      - UNKNOWN"

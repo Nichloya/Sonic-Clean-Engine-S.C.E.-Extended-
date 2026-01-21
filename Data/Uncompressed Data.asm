@@ -32,3 +32,8 @@
 		incfile.b	ArtUnc_AniDEZ__4, "Levels/DEZ/Tiles/Animated/Uncompressed Art/4.unc"
 		incfile.b	ArtUnc_AniDEZ__5, "Levels/DEZ/Tiles/Animated/Uncompressed Art/5.unc"
 		incfile.b	ArtUnc_AniDEZ__6, "Levels/DEZ/Tiles/Animated/Uncompressed Art/6.unc"
+
+		incfile.b	ArtUnc_AniAIZ__3, "Levels/AIZ/Tiles/Animated/Uncompressed Art/3.unc"
+		incfile.b	ArtUnc_AniAIZ__4, "Levels/AIZ/Tiles/Animated/Uncompressed Art/4.unc"
+		incfile.b	ArtUnc_AniAIZ__5, "Levels/AIZ/Tiles/Animated/Uncompressed Art/5.unc"
+		incfile.b	ArtUnc_AniAIZ__6, "Levels/AIZ/Tiles/Animated/Uncompressed Art/6.unc"

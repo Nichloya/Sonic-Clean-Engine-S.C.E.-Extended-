@@ -3,7 +3,7 @@
 ; ===========================================================================
 
 ; assembly options
-ZoneCount:				= 1	; set discrete zones are: DEZ
+ZoneCount:				= 2	; set discrete zones are: DEZ, AIZ
 GameDebug:				= 1	; if 1, enable debug mode for Sonic
 GameDebugAlt:				= 0	; if 1, enable alt debug mode for Sonic
 BossDebug:				= 0	; if 1, one hit for all bosses

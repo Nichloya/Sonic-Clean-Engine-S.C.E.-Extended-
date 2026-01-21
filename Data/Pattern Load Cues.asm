@@ -139,3 +139,81 @@ PLCAnimals_DEZ1: plrlistheader
 		plreq $580, ArtKosPM_BlueFlicky
 		plreq $592, ArtKosPM_Chicken
 PLCAnimals_DEZ1_end
+
+;============================================================================
+; Pattern load cues - Angel Island (Before)
+; ===========================================================================
+
+PLC1_AIZ1_Before: plrlistheader
+		plreq $47E, ArtKosPM_GrayButton					; button
+PLC1_AIZ1_Before_end
+
+; ===========================================================================
+; Pattern load cues - Angel Island (After)
+; ===========================================================================
+
+PLC2_AIZ1_After: plrlistheader
+		plreq $500, ArtKosPM_Spikebonker				; spikebonker badnik
+PLC2_AIZ1_After_end
+
+; ===========================================================================
+; Pattern load cues - Angel Island (Before)
+; ===========================================================================
+
+PLC1_AIZ2_Before: plrlistheader
+		plreq $47E, ArtKosPM_GrayButton					; button
+PLC1_AIZ2_Before_end
+
+; ===========================================================================
+; Pattern load cues - Angel Island (After)
+; ===========================================================================
+
+PLC2_AIZ2_After: plrlistheader
+		plreq $500, ArtKosPM_Spikebonker				; spikebonker badnik
+PLC2_AIZ2_After_end
+
+; ===========================================================================
+; Pattern load cues - Angel Island (Before)
+; ===========================================================================
+
+PLC1_AIZ3_Before: plrlistheader
+		plreq $47E, ArtKosPM_GrayButton					; button
+PLC1_AIZ3_Before_end
+
+; ===========================================================================
+; Pattern load cues - Angel Island (After)
+; ===========================================================================
+
+PLC2_AIZ3_After: plrlistheader
+		plreq $500, ArtKosPM_Spikebonker				; spikebonker badnik
+PLC2_AIZ3_After_end
+
+; ===========================================================================
+; Pattern load cues - Angel Island (Before)
+; ===========================================================================
+
+PLC1_AIZ4_Before: plrlistheader
+		plreq $47E, ArtKosPM_GrayButton					; button
+PLC1_AIZ4_Before_end
+
+; ===========================================================================
+; Pattern load cues - Angel Island (After)
+; ===========================================================================
+
+PLC2_AIZ4_After: plrlistheader
+		plreq $500, ArtKosPM_Spikebonker				; spikebonker badnik
+PLC2_AIZ4_After_end
+
+; ===========================================================================
+; Level pattern load cues
+; Load animals graphics
+; ===========================================================================
+
+; ===========================================================================
+; Pattern load cues - Animals (AIZ1)
+; ===========================================================================
+
+PLCAnimals_AIZ1: plrlistheader
+		plreq $580, ArtKosPM_BlueFlicky
+		plreq $592, ArtKosPM_Chicken
+PLCAnimals_AIZ1_end

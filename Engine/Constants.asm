@@ -171,6 +171,9 @@ PalID_WaterKnuckles =						id(PalPtr_WaterKnuckles)			; 3
 PalID_DEZ =							id(PalPtr_DEZ)					; 4
 PalID_WaterDEZ =						id(PalPtr_WaterDEZ)				; 5
 
+PalID_AIZ =							id(PalPtr_AIZ)					; 4
+PalID_WaterAIZ =						id(PalPtr_WaterAIZ)				; 5
+
 ; ---------------------------------------------------------------------------
 ; Sonic animation IDs
 ; ---------------------------------------------------------------------------
@@ -243,6 +246,7 @@ AniIDKnuxAni_Carry2 =						id(ptr_KnuxAni_Carry2)				; 26
 ; ---------------------------------------------------------------------------
 
 LevelID_DEZ =							0						; Death Egg
+LevelID_AIZ =							0						; Angel Island
 LevelID_NULL =							$FF						; NULL
 
 ; ---------------------------------------------------------------------------

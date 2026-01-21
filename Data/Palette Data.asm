@@ -34,6 +34,9 @@
 		incfile.be	Pal_DEZ, "Levels/DEZ/Palettes/Death Egg Zone.pal"
 		incfile.be	Pal_WaterDEZ, "Levels/DEZ/Palettes/Water Death Egg Zone.pal"
 
+		incfile.be	Pal_AIZ, "Levels/AIZ/Palettes/Angel Island Zone.pal"
+		incfile.be	Pal_WaterAIZ, "Levels/AIZ/Palettes/Water Angel Island Zone.pal"
+
 ; ===========================================================================
 ; Animated palette player data
 ; ===========================================================================
@@ -55,3 +58,5 @@
 
 		incfile.b	AnPal_PalDEZ12_1, "Levels/DEZ/Palettes/Animated/Palettes/1.pal"
 		incfile.b	AnPal_PalDEZ12_2, "Levels/DEZ/Palettes/Animated/Palettes/2.pal"
+		incfile.b	AnPal_PalAIZ12_1, "Levels/AIZ/Palettes/Animated/Palettes/1.pal"
+		incfile.b	AnPal_PalAIZ12_2, "Levels/AIZ/Palettes/Animated/Palettes/2.pal"

@@ -186,6 +186,7 @@ Obj_EggCapsule:
 
 .subindex										; $A, $E, $10 only (sub_866BA, sub_866DA, sub_866EC)
 		dc.l sub_866BA								; DEZ
+		dc.l sub_866BA								; AIZ
 
 		zonewarning .subindex,(1*4)
 

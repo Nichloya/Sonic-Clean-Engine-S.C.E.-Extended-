@@ -17,6 +17,7 @@ animal_ground_pointer				= objoff_34	; .l
 
 Obj_Animal_ZoneAnimals:
 		zoneanimals.b Flicky, Chicken	; DEZ
+		zoneanimals.b Flicky, Chicken	; AIZ
 
 		zonewarning Obj_Animal_ZoneAnimals,(1*2)
 
