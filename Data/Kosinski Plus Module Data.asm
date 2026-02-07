@@ -59,6 +59,14 @@
 		incfile.b	ArtKosPM_TitleCardNum4, "Objects/Main/Title Card/KosinskiPM Art/Title Card Number 4.kospm"
 
 ; ===========================================================================
+; Kosinski Plus Module compressed Splash screen graphics
+; ===========================================================================
+
+;		Attribute	| Filename	| Folder
+
+		incfile.b	ArtKosPM_Splash, "Screens/Splash/KosinskiPM Art/Foreground.kospm"
+
+; ===========================================================================
 ; Kosinski Plus Module compressed Level Select screen graphics
 ; ===========================================================================
 

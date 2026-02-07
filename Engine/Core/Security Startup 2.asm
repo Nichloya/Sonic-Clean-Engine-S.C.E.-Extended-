@@ -62,7 +62,7 @@ Game_Program:
 		; set Sonic Alone player is only for DEBUG builds
 		ifdebug	move.w	#1,(Player_option).w					; set Sonic Alone player
 
-		move.b	#GameModeID_LevelSelectScreen,(Game_mode).w			; set screen mode to Level Select (SCE)
+		move.b	#GameModeID_SplashScreen,(Game_mode).w			; set screen mode to Level Select (SCE)
 
 .loop
 		moveq	#$7C,d0								; limit Game Mode value to $7C max
@@ -76,6 +76,7 @@ Game_Program:
 ; ---------------------------------------------------------------------------
 
 Game_Modes:
+		GameModeEntry SplashScreen						; Splash mode
 		GameModeEntry LevelSelectScreen						; Level Select mode (SCE)
 		GameModeEntry LevelScreen						; Zone play mode
 		GameModeEntry ContinueScreen						; Continue mode

@@ -10,6 +10,14 @@
 		incfile.be	Pal_WaterKnuckles, "Objects/Players/Knuckles/Palettes/Water Knuckles.pal"
 
 ; ===========================================================================
+; Palette Splash screen data
+; ===========================================================================
+
+;		Attribute	| Filename	| Folder
+
+		incfile.b	Pal_Splash, "Screens/Splash/Palettes/1.pal"
+
+; ===========================================================================
 ; Palette Level Select screen data
 ; ===========================================================================
 

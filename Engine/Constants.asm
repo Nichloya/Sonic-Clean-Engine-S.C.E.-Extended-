@@ -113,6 +113,7 @@ offset := Game_Modes
 ptrsize := 1
 idstart := 0
 
+GameModeID_SplashScreen =					id(GameMode_SplashScreen)			; 0
 GameModeID_LevelSelectScreen =					id(GameMode_LevelSelectScreen)			; 0
 GameModeID_LevelScreen =					id(GameMode_LevelScreen)			; 4
 GameModeID_ContinueScreen =					id(GameMode_ContinueScreen)			; 8
